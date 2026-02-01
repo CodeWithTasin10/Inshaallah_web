@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  font-family: 'Patrick Hand', cursive;
+  background-color: #d5dfda;
+  color: #2c2b2b;
+  line-height: 1.7;
+}
+header {
+  background: linear-gradient(135deg, #2b9978, #207e5d);
+  color: rgb(253, 249, 249);
+  padding: 50px 20px;
+  text-align: center;
+}
+header h1 {
+  margin: 0;
+  font-size: 42px;
+}
+header p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: 10px auto 0;
+}
+section {
+  padding: 50px 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+h2 {
+  color: #0f4c3a;
+  margin-bottom: 15px;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+ul {
+  padding-left: 20px;
+}
+footer {
+  background: #0f4c3a;
+  color: white;
+  padding: 30px 20px;
+  text-align: center;
+}
+footer a {
+  color: #a8ffdd;
+  text-decoration: none;
+}
